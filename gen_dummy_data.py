@@ -58,12 +58,13 @@ with open("clientes.csv", "w", encoding="utf-8") as f:
         f.write(s + "\n")
 
 # write transactions
-header = "id_usuario,tipo_transaccion,moneda,cantidad,fecha_transaccion\n"
+header = "id_transaccion,id_usuario,tipo_transaccion,moneda,cantidad,fecha_transaccion\n"
 with open("transacciones.csv", "w", encoding="utf-8") as f:
     f.write(header)
     for _ in range(CANTIDAD_DE_TRANSACCIONES):
         s = (
-            f"{random.choice(ID_USUARIOS)},"
+            f"{random.randint(10**9, 10**10-1)},"
+            + f"{random.choice(ID_USUARIOS)},"
             + f"{random.choice(TIPO_TRANSACCION)},"
             + f"{random.choice(MONEDA)},"
             + f"{random.randint(1000, 5000)}.{('00' + str(random.randint(0, 99)))[-2:]},"
