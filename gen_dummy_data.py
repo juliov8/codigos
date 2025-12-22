@@ -24,14 +24,14 @@ ID_USUARIOS = []
 
 TIPO_TRANSACCION = ["DEPOSITO", "RETIRO"]
 PRIMER_NOMBRE = [
-    "MANUFACTURERA", "SOLDADURÍA", "DISTRIBUIDORA", "CONFECCIONES",
-    "TEXTILERÍA", "FARMACIA", "PANADERÍA", "ZAPATERÍA",
-    "AUTOMOTRIZ", "MINERA", "CONSTRUCTORA", "CERVECERÍA",    
+    "MANUFACTURERA", "SOLDADURIA", "DISTRIBUIDORA", "CONFECCIONES",
+    "TEXTILERIA", "FARMACIA", "PANADERIA", "ZAPATERIA",
+    "AUTOMOTRIZ", "MINERA", "CONSTRUCTORA", "CERVECERIA",    
 ]
 SEGUNDO_NOMBRE = [
-    "JIMÉNEZ", "GALARZA", "GONZALES", "RODRÍGUEZ",
-    "PAREDES", "GARCÍA", "GAMARRA", "GUTIÉRREZ",
-    "ALVARADO", "MUÑOZ", "HERRERA", "FIGUEROA",
+    "JIMENEZ", "GALARZA", "GONZALES", "RODRIGUEZ",
+    "PAREDES", "GARCIA", "GAMARRA", "GUTIERREZ",
+    "ALVARADO", "RAMIREZ", "HERRERA", "FIGUEROA",
 ]
 TIPO_EMPRESA = ["SAC", "SA", "SRL", "EIRL", "SAA"]
 MONEDA = ["PEN", "USD"]
@@ -45,11 +45,14 @@ header = "id_usuario,razon_social,ruc,email_contacto,fecha_creacion\n"
 with open("clientes.csv", "w", encoding="utf-8") as f:
     f.write(header)
     for e in ID_USUARIOS:
+        primer_nombre = random.choice(PRIMER_NOMBRE)
+        segundo_nombre = random.choice(SEGUNDO_NOMBRE)
+
         s = (
             f"{e},"
-            + f"{random.choice(PRIMER_NOMBRE)} {random.choice(SEGUNDO_NOMBRE)} {random.choice(TIPO_EMPRESA)},"
+            + f"{primer_nombre} {segundo_nombre} {random.choice(TIPO_EMPRESA)},"
             + f"20{random.randint(10**11, 10**12-1)},"
-            + f"contacto@{(random.choice(PRIMER_NOMBRE) + random.choice(SEGUNDO_NOMBRE)).lower()}.com,"
+            + f"contacto@{(primer_nombre + segundo_nombre).lower()}.com,"
             + f"{str(generate_random_timestamp(FECHA_INICIO_CREACION, FECHA_FIN_CREACION))[:10]}"
         )
         f.write(s + "\n")
