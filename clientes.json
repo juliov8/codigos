@@ -1,0 +1,156 @@
+[
+    {
+        "id_usuario": 51711302,
+        "razon_social": "TEXTILERIA ALVARADO EIRL",
+        "ruc": 20974004339245,
+        "email_contacto": "contacto@textileriaalvarado.com",
+        "fecha_creacion": "2004-12-20"
+    },
+    {
+        "id_usuario": 15485911,
+        "razon_social": "ZAPATERIA GONZALES SA",
+        "ruc": 20663162419429,
+        "email_contacto": "contacto@zapateriagonzales.com",
+        "fecha_creacion": "2012-06-08"
+    },
+    {
+        "id_usuario": 24985043,
+        "razon_social": "MINERA RAMIREZ EIRL",
+        "ruc": 20259433702509,
+        "email_contacto": "contacto@mineraramirez.com",
+        "fecha_creacion": "2008-01-01"
+    },
+    {
+        "id_usuario": 60930525,
+        "razon_social": "MANUFACTURERA GONZALES SAA",
+        "ruc": 20568464292856,
+        "email_contacto": "contacto@manufactureragonzales.com",
+        "fecha_creacion": "2002-08-31"
+    },
+    {
+        "id_usuario": 54762146,
+        "razon_social": "SOLDADURIA RODRIGUEZ EIRL",
+        "ruc": 20752135162857,
+        "email_contacto": "contacto@soldaduriarodriguez.com",
+        "fecha_creacion": "2002-08-19"
+    },
+    {
+        "id_usuario": 67365238,
+        "razon_social": "CERVECERIA MARTINEZ SA",
+        "ruc": 20848482397355,
+        "email_contacto": "contacto@cerveceriamartinez.com",
+        "fecha_creacion": "2012-08-22"
+    },
+    {
+        "id_usuario": 81961317,
+        "razon_social": "DISTRIBUIDORA HERRERA SA",
+        "ruc": 20458554747109,
+        "email_contacto": "contacto@distribuidoraherrera.com",
+        "fecha_creacion": "2000-11-25"
+    },
+    {
+        "id_usuario": 54423881,
+        "razon_social": "CONSTRUCTORA GUTIERREZ SAA",
+        "ruc": 20288662897069,
+        "email_contacto": "contacto@constructoragutierrez.com",
+        "fecha_creacion": "2002-06-17"
+    },
+    {
+        "id_usuario": 30656678,
+        "razon_social": "PANADERIA GALARZA SAA",
+        "ruc": 20127677458131,
+        "email_contacto": "contacto@panaderiagalarza.com",
+        "fecha_creacion": "2009-05-01"
+    },
+    {
+        "id_usuario": 35251275,
+        "razon_social": "PANADERIA GONZALES SRL",
+        "ruc": 20177711571529,
+        "email_contacto": "contacto@panaderiagonzales.com",
+        "fecha_creacion": "2012-10-01"
+    },
+    {
+        "id_usuario": 79120764,
+        "razon_social": "CERVECERIA RODRIGUEZ SAC",
+        "ruc": 20640983820585,
+        "email_contacto": "contacto@cerveceriarodriguez.com",
+        "fecha_creacion": "2011-11-18"
+    },
+    {
+        "id_usuario": 44937361,
+        "razon_social": "MINERA GONZALES SAC",
+        "ruc": 20654190358828,
+        "email_contacto": "contacto@mineragonzales.com",
+        "fecha_creacion": "2006-02-28"
+    },
+    {
+        "id_usuario": 56736334,
+        "razon_social": "MINERA GAMARRA SAC",
+        "ruc": 20689099566165,
+        "email_contacto": "contacto@mineragamarra.com",
+        "fecha_creacion": "2002-02-05"
+    },
+    {
+        "id_usuario": 75343255,
+        "razon_social": "MINERA FIGUEROA SAA",
+        "ruc": 20264494565835,
+        "email_contacto": "contacto@minerafigueroa.com",
+        "fecha_creacion": "2020-11-28"
+    },
+    {
+        "id_usuario": 23469872,
+        "razon_social": "CONSTRUCTORA BERMUDEZ SRL",
+        "ruc": 20127619163672,
+        "email_contacto": "contacto@constructorabermudez.com",
+        "fecha_creacion": "2017-12-21"
+    },
+    {
+        "id_usuario": 43537144,
+        "razon_social": "SOLDADURIA PAREDES EIRL",
+        "ruc": 20781449222160,
+        "email_contacto": "contacto@soldaduriaparedes.com",
+        "fecha_creacion": "2001-01-08"
+    },
+    {
+        "id_usuario": 41487705,
+        "razon_social": "CONSTRUCTORA GONZALES SRL",
+        "ruc": 20878223933611,
+        "email_contacto": "contacto@constructoragonzales.com",
+        "fecha_creacion": "2017-11-16"
+    },
+    {
+        "id_usuario": 72714777,
+        "razon_social": "DISTRIBUIDORA RAMIREZ SRL",
+        "ruc": 20953953753009,
+        "email_contacto": "contacto@distribuidoraramirez.com",
+        "fecha_creacion": "2012-06-16"
+    },
+    {
+        "id_usuario": 38025170,
+        "razon_social": "DISTRIBUIDORA ALVARADO SRL",
+        "ruc": 20484157896982,
+        "email_contacto": "contacto@distribuidoraalvarado.com",
+        "fecha_creacion": "2011-05-22"
+    },
+    {
+        "id_usuario": 97408230,
+        "razon_social": "AUTOMOTRIZ GALARZA SAA",
+        "ruc": 20203014921205,
+        "email_contacto": "contacto@automotrizgalarza.com",
+        "fecha_creacion": "2004-01-26"
+    },
+    {
+        "id_usuario": 80163164,
+        "razon_social": "CONFECCIONES GAMARRA SA",
+        "ruc": 20748482367735,
+        "email_contacto": "contacto@confeccionesgamarra.com",
+        "fecha_creacion": "2002-05-05"
+    },
+    {
+        "id_usuario": 23469872,
+        "razon_social": "SOLDADURIA GUTIERREZ SRL",
+        "ruc": 20924616166618,
+        "email_contacto": "contacto@soldaduriagutierrez.com",
+        "fecha_creacion": "2007-07-14"
+    }
+]
